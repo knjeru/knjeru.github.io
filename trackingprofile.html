@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ByteLyfe</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default" id="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Welcome to Track It!</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class=""><a href="index.html">Home</a></li>
+          <li class=""><a href="basicprofile.html">User Profile</a></li>
+          <li class="active"><a href="trackingprofile.html">Calorie Tracker</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+<!--  Modal life -->
+  <!-- <div class="modal fade" id="myModal">
+    <div class="modal-body modalLife">
+      <p>One fine body…</p>
+    </div>
+    <div class="modal-footer modalLife">
+      <a class="close" data-dismiss="modal">×</a>
+    </div>
+  </div> -->
+
+
+  <div class="container-fluid" id="trackUserProf">
+
+    <div class="row">
+
+      <div class="col-md-9 col-md-offset-1 formfit text-center">
+        <form class="form-horizontal" action="index.html" method="post">
+          <div class="form-group">
+            <div class="row">
+              <div class="row">
+                <label class="control-label col-md-3" for="bfood">What're you grubbin on?</label>
+                <input class="col-md-4 col-md-offset-1" type="text" name="name" placeholder="Enter a food item" id="anyfood">
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-md-4 col-md-offset-4" id="foodItem">
+                  <!-- Food names will be returned here or error posted if not real -->
+                </div>
+              </div>
+              <br>
+              <button class="btn btn-warning" type="button" name="button" id="addFood">Add Food</button>
+            </div>
+            <br>
+            <!-- Later Revisions can utilize these extra inputs for lunch,dinner, etc-->
+
+            <!--
+            <div class="row">
+              <label class="control-label col-xs-3" for="lfood">Lunch Food:</label>
+              <input class="col-xs-4" type="text" name="name" placeholder="Enter Lunch Food" id="lfood">
+              <button type="button" name="button">Add Food</button>
+            </div>
+
+            <div class="row">
+              <label class="control-label col-xs-3" for="dfood">Dinner Food:</label>
+              <input class="col-xs-4" type="text" name="name" placeholder="Enter Dinner Foods" id="dfood">
+              <button type="button" name="button">Add Food</button>
+            </div>
+
+            <div class="row">
+              <label class="control-label col-xs-3" for="sfood">Snack Foods:</label>
+              <input class="col-xs-4" type="text" name="name" placeholder="Enter Snack Food" id="sfood">
+              <button type="button" name="button">Add Food</button>
+            </div>
+             -->
+            <div class="row">
+              <label class="control-label col-md-3" for="calsconsumed">Calories Consumed:</label>
+              <div class="col-md-6 form-control-static" id="calsConsumed">
+              </div>
+            </div>
+            <div class="row">
+              <label class="control-label col-md-3" for="calsremain">Calories Remaining:</label>
+              <div class="col-md-6 form-control-static" id="calsRemain">
+
+              </div>
+            </div>
+            <div class="row">
+              <label class="control-label col-md-3" for="water">Water Consumed:</label>
+              <div class="col-md-6 col-md-offset-0" id="water">
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+              <div class="row">
+                <button class="col-xs-4 col-xs-offset-4 btn btn-primary" type="button" name="button" id="add">Add Cup of Water (8oz)</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/trackProf.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

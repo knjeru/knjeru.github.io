@@ -1,42 +1,61 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="CSS/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script type="text/javascript" src="scripts/script.js"></script>
-		<title>FOTM</title>
-	</head>
+<html lang="en">
 
-	<body>
-		<header class="main-header">
-			<div id="borderwrap">
-				<h1 id="title">From Oceans to Mountains</h1>
-				<div>
-					<nav class="navbar">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">Aspirations</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
+<head>
+  <meta charset="utf-8">
+  <title>ByteLyfe</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
 
-			<div><button id="btt">ENTER</button></div>
-		</header>
+<body>
+  <nav class="navbar navbar-default" id="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Welcome to Track It!</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="basicprofile.html">User Profile</a></li>
+          <li><a href="trackingprofile.html">Calorie Tracker</a></li>
+        </ul>
+      </div>
 
-		<div class="mbody-content" id="bio" >
-			<p class="bodytext">Hi! My name is Kevin. I'm relatively fresh from the sunshine state, with about a year of experience in the mile high city finally under my belt. My hobbies include (but are not limited to) climbing, snowboarding, netflixing, beering, and sleeping.<br><br>
-			This pretty much sums up my current mental state:
-			</p>
-			<img id="giffin" src="IMG/sheldon_faint.gif" alt="He wasn't ready!">
+    </div>
+  </nav>
+  <header>
+  </header>
 
-			<div><button id="btt2">All Good!</button></div>
+  <div class="container" id="starting">
+      <div class="row">
+        <div class="col-md-7 col-md-offset-4">
+          <div class="enter" id="introenter">
+            <h3><a href="basicprofile.html">I'm new to LYFE!</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-4">
+          <div class="enter" id="returninguser">
+            <h3><a href="basicprofile.html">I'm a returning user!</a></h3>
+          </div>
+        </div>
+      </div>
+  </div>
 
-		</div>
 
-		<footer class="main-footer">
-			<h1>2015 KevCo Industries</h1>
-		</footer>
-	</body>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>

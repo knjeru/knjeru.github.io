@@ -1,0 +1,43 @@
+.navbar-brand {
+  font-weight: bolder;
+}
+
+header {
+  position: relative;
+  top: 50px;
+}
+
+
+/*Plan to eliminate the button. And more towards a diferent enter style button*/
+/*.enter {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  height: 100px;
+  width: 200px;
+  border-radius: 2%;
+  text-align: center;
+  color: #5789a8;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  width: 75%;
+  height: 75%;
+  z-index: 2;
+}*/
+
+a.enter:hover {
+  visibility: visible;
+  z-index: 2;
+}
+
+#BGenter {
+  position: absolute;
+  top: 175px;
+  left: 0%;
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  background-image: ;
+}

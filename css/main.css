@@ -1,0 +1,117 @@
+/* add custom styles */
+
+body {
+  background-color: #21c8de;
+  background-image: url(../IMG/bgimg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#starting a {
+  color: black;
+}
+
+#starting a:hover {
+  font-weight: bolder;
+  background-color: rgba(238, 188, 7, 0.86);
+  text-decoration: none;
+}
+
+#navigation, .navbar .navbar-default {
+  border-radius: 0;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(28, 28, 28, 0.5);
+}
+
+.formfit {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  top: 50px;
+  width: 60%;
+  height: 100%;
+  background-color: rgba(64, 140, 60, 0.96);
+  border-radius: 2%;
+  box-shadow: 1px 4px 10px 2px rgba(28, 28, 28, 0.5);
+  margin-bottom: 30px;
+}
+
+#introenter {
+  height: auto;
+  width: auto;
+  background-color: rgba(64, 140, 60, 0.93);
+  position: absolute;
+  top: 200px;
+  /*left: 18%;*/
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+#returninguser {
+  height: auto;
+  width: auto;
+  background-color: rgba(64, 140, 60, 0.93);
+  position: absolute;
+  top: 300px;
+  /*left: 18%;*/
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+input {
+  margin-right: 5px;
+}
+#original {
+  height: auto;
+  width: 100px;
+  overflow: hidden;
+}
+
+.gUP {
+  font-size: 1.75em;
+}
+
+#introEnter, #baseUserProf, #trackUserProf {
+  display: none;
+}
+
+.appendedText {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.warning {
+  height: 100px;
+  width: auto;
+  font-weight: bold;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 1px 4px 10px 2px rgba(28, 28, 28, 0.5);
+  background-color: rgba(64, 140, 60, 0.96);
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  right: 5%;
+  text-align: center;
+  padding: 5px;
+  padding-top: 20px;
+}
+
+#foodItem {
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+#water {
+  height: 100px;
+}
+
+#activeness, #gender {
+  margin-right: 5px;
+}
