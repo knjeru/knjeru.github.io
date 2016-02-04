@@ -41,7 +41,7 @@ $(document).ready(function() {
       $('#calsConsumed').addClass('animated fadeIn').append('<p class="gUP">Enter a food item to start tracking calories</p>');
     }
 
-    $("#calsRemain").addClass('animated fadeIn').append('<p class="gUP">You have <strong>' + recCals + '</strong> remaining!</p>');
+    $("#calsRemain").addClass('animated fadeIn').append('<p class="gUP">You have <strong>' + recCals + '</strong> calories remaining!</p>');
 
   }
 
