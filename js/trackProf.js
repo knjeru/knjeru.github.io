@@ -37,7 +37,7 @@ $(document).ready(function() {
 
     // append the reccommended amount of calories to the document
     if (calsCON === undefined) {
-      $('#foodItem').addClass('animated fadeIn').append('<p class="gUP">Good Day, <strong>'+currUser.firstName+'</strong>!<br> What have you eaten today?</p>');
+      $('#foodItem').addClass('animated fadeIn').append('<p class="gUP">Good Day, <strong>'+currUser.firstName+'</strong>!<br> What have you had today?</p>');
       $('#calsConsumed').addClass('animated fadeIn').append('<p class="gUP">Enter a food item to start tracking calories</p>');
     }
 
