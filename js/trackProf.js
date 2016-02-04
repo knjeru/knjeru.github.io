@@ -107,7 +107,7 @@ $(document).ready(function() {
     $('#calsConsumed').empty();
     $('#calsConsumed').addClass('animated fadeIn').append("<p class='gUP'>You've consumed <strong>" + calsCON + "</strong> calories today.</p>");
     $("#calsRemain").empty();
-    $("#calsRemain").addClass('animated bounceIn').append('<p class="gUP">You have <strong>' + calsREM + '</strong> remaining!</strong></p>');
+    $("#calsRemain").addClass('animated bounceIn').append('<p class="gUP">You have <strong>' + calsREM + '</strong> calories remaining!</strong></p>');
   }
 
 
